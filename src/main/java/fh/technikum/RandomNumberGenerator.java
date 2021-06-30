@@ -23,7 +23,7 @@ public class RandomNumberGenerator {
         int low = 500;
         int high = 600;
         int result = r.nextInt(high-low) + low;
-        System.out.println("Random integer value from 0 to" + (high-1) + " : "+ result);
+        System.out.println("Random integer value from 0 to " + (high) + " : "+ result);
         return result;
 
     }
